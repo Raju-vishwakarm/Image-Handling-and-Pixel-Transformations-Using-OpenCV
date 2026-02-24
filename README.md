@@ -1,6 +1,4 @@
-## Ex. No. 01 - Image-Handling-and-Pixel-Transformations-Using-OpenCV 
-
-
+# Image-Handling-and-Pixel-Transformations-Using-OpenCV 
 
 ## AIM:
 Write a Python program using OpenCV that performs the following tasks:
@@ -30,14 +28,13 @@ Modify the image contrast by creating two higher contrast images using scaling f
 Display the original, lower contrast, and higher contrast images.
 
 ### Step 5:
-Split the image (boy.jpg) into B, G, R components and display the channel
+Split the image (boy.jpg) into B, G, R components and display the channels
 
-## PROGRAM DEVELOPED BY:
-~~~
-NAME : RAJU D
-REG NO: 212224240128
-~~~
+## Program Developed By:
+- **Name:** D RAJU
+- **Register Number:** 212224240128
 
+  ### Ex. No. 01
 
 #### 1. Read the image ('Eagle_in_Flight.jpg') using OpenCV imread() as a grayscale image.
 ```
@@ -61,9 +58,8 @@ plt.show()
 ```
 
 #### 4. Save the image as a PNG file using OpenCV imwrite().
-```
-img=cv2.imread('Eagle_in_Flight.jpg')
-cv2.imwrite('Eagle.png',img)
+```python
+# YOUR CODE HERE
 ```
 
 #### 5. Read the saved image above as a color image using cv2.cvtColor().
@@ -340,10 +336,10 @@ plt.show()
 
 
 
-<img width="1382" height="428" alt="image" src="https://github.com/user-attachments/assets/155d0181-ee18-42bb-a9c1-3a2ff7793d8f" />
-
+![Screenshot 2025-03-11 082402](https://github.com/user-attachments/assets/2e2034ed-8cc3-4855-a8cb-87632e161c80)
 
 
 
 ## Result:
 Thus, the images were read, displayed, brightness and contrast adjustments were made, and bitwise operations were performed successfully using the Python program.
+
